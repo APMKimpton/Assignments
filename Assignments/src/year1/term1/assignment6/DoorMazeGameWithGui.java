@@ -43,8 +43,6 @@ public class DoorMazeGameWithGui{
 		JFrame window = new JFrame("Door Maze Game");
 		window.setSize(300,200);
 		
-		setupWindow(window);
-			
 		window.setLayout(new BorderLayout());
 		JPanel jpNorth = new JPanel();
 		JPanel jpCenter = new JPanel();		
